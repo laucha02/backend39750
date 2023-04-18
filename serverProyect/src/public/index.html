@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de productos</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+	
+</head>
+<body>
+	<form method="POST" action="/api/products/formulario" enctype="multipart/form-data">
+		<label for="title">Título:</label>
+		<input type="text" id="title" name="title">
+
+		<label for="description">Descripción:</label>
+		<textarea id="description" name="description"></textarea>
+
+		<label for="category">Categoría:</label>
+		<input id="category" name="category">
+
+
+		<label for="price">Precio:</label>
+		<input type="text" id="price" name="price">
+
+		<label for="status">Estado:</label>
+		<input id="status" name="status">
+
+
+		<label for="thumbnail">Imagen:</label>
+		<input type="file" id="thumbnail" name="thumbnail" >
+
+		<label for="code">Código:</label>
+		<input type="text" id="code" name="code">
+
+		<label for="stock">Stock:</label>
+		<input type="text" id="stock" name="stock">
+
+		<input type="submit" value="Guardar">
+	</form>
+</body>
+</html>
+</body>
+
+
+</html>
